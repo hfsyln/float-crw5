@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Open Sans";
+  }
+  
+  /** NAV-TOP */
+  nav.nav-top {
+    background-image: linear-gradient(
+      to right,
+      rgb(119, 99, 99),
+      rgba(207, 46, 207, 0.805)
+    );
+  }
+  
+  nav.nav-top img {
+    width: 50px;
+    border: 1px solid black;
+    margin: 0.2rem;
+    outline: 3px solid red;
+    outline-offset: 2px;
+  }
+  
+.sign-in {
+    float: right;
+    margin: 1.5rem 1rem;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .sign-in a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sign-in a:hover {
+    color: black;
+  }
+
+  .nav-2{
+    background-color: #ffaa53;
+    text-align: center;
+    padding-top: 2rem;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+}
+
+
+.list-item{
+    display: inline;
+    padding: 2rem;
+    font-family:"DynaPuff", cursive;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;  
+}
+
+ .main{
+    margin: 2rem 2rem 1rem 2rem;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.slack{
+    position: fixed;
+    bottom:1rem;
+    right:2rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;    
+}
+.fa-slack{
+    color: white;
+    padding: 0.3rem;
+    font-size: 30px;
+    }
+
+.slack:hover{
+    color:black
+}
+
+
+
+  
